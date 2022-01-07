@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Products</title>
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+    <link rel="stylesheet" type="text/css" href="whatsapp.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--Floating WhatsApp css-->
+    <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+    <!--Floating WhatsApp javascript-->
+    <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+    <link rel="shortcut icon" href="Assets/favicons/product search.png" type="image">  
+      </head>
+    
+      <body style="background-color:#cea780";> 
+    
+    
+        <a href="whatsapp://send?phone=+919879397905" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float icon"></i>
+</a>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-card" id="myNavbar" style="bottom:10%;opacity:0.7;width:100%">
+        <a href="#home" class="w3-bar-item w3-button w3-wide"><a href="#default" class="logo">
+         
+          <img src="Assets/logo.png"
+          alt="About Image"
+          height="70px"
+          width="70px"
+              /></a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+        <a href="about.html" class="w3-bar-item w3-button">ABOUT US</a>
+        <a href="product.html" class="w3-bar-item w3-button">PRODUCTS</a>
+        <a href="Contact Us.html" class="w3-bar-item w3-button">CONTACT US</a>
+        </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+    <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a> 
+    <a href="product.html" onclick="w3_close()" class="w3-bar-item w3-button">PRODUCTS</a>
+    <a href="Contact Us.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
+  </nav>
+
+  <div class="main">
+    
+  <div class="cards" id="cards_id">
+        <div class="card">
+            <div class="card-image1"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>D & W CUT NON WOVEN BAGS</h2>
+                <p>This bag saves the Earth.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="wovenbags.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div>
+    <div class="card">
+            <div class="card-image2"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>OFFICE BAGS</h2>
+                <p>Easy to carry and spacious.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="officebags.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div>
+
+    <div class="card">
+            <div class="card-image3"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>TRAVELLING BAGS</h2>
+                <p>Enjoy your travel.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="travellingbags.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div>
+    <div class="card">
+            <div class="card-image4"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>JUTE BAGS</h2>
+                <p>Don't be a drag reuse your bags.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="jutebags.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div>
+      </div>   
+      <div class="cards" id="cards_id">
+        <div class="card">
+            <div class="card-image5"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>CUSTOMIZED BAGS</h2>
+                <p>Your expectations, our impression.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="customizedbags.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-image6"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PLASTIC/METAL & WOODEN PENS</h2>
+                <p>The truly mightier pen.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="pens.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-image7"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PROMOTIONAL KEYCHAINS</h2>
+                <p>Beautiful things dont as for attention.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="promotionalkeychain.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-image8"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PROMOTIONAL BOTTLES</h2>
+                <p>Drink outside the box.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="promotionalbottles.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div> 
+         </div>   
+         <div class="cards" id="cards_id">
+        <div class="card">
+            <div class="card-image9"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>CUSTOMIZED GIFT SET</h2>
+                <p>Some gifts are Big, others are small.But the ones that come from the heart are the best gifts of all.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="giftset.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-image10"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PAPER WEIGHT</h2>
+                <p>This knowledge sits in my heart as heavy as a paper weight.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="paperweight.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+           <div class="card">
+            <div class="card-image11"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PROMOTIONAL WALL CLOCK</h2>
+                <p>Time is everything and clock is ticking.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="promotionalwallclock.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+           <div class="card">
+            <div class="card-image12"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PROMOTIONAL T-SHIRT</h2>
+                <p>Your fashion statements.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="promotionaltshirt.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" id="cards_id">
+        <div class="card">
+            <div class="card-image13"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PROMOTIONAL CAPS</h2>
+                <p>Wear your style wherever you.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="promotionalcap.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-image14"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PROMOTIONAL UMBRELLA & RAINCOATS</h2>
+                <p>Enjoy the rain.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="promotionalumbrella.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+           <div class="card">
+            <div class="card-image15"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>CUSTOMIZED HOODIES & SWEATER</h2>
+                <p>Always wear what you want to wear.</p>
+            </div>
+            <div style="background-color: #F7DDA4;"class="card-stats">
+                <div class="value"><strong><a href="hoodies.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+           <div class="card">
+            <div class="card-image16"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PROMOTIONAL PVC & RUBBER BALLOONS</h2>
+                <p>A kid's delight.All shapes and sizes.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="promotionalpvcballoons.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" id="cards_id">
+        <div class="card">
+            <div class="card-image17"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>SKY BALLOONS</h2>
+                <p>Together we will touch the sky and reach heights.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="promotionalballoons.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-image18"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PROMOTIONAL USB PEN-DRIVE</h2>
+                <p>Trusted Storage solutions.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="pendrive.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+           <div class="card">
+            <div class="card-image19"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>CARD HOLDERS</h2>
+                <p>Secure as ever.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="cardholder.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+           <div class="card">
+            <div class="card-image20"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>SUBLIMATION MUGS</h2>
+                <p>Enjoy every moment.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="mug.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" id="cards_id">
+        <div class="card">
+            <div class="card-image21"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PROMOTIONAL GARDEN UMBRELLA</h2>
+                <p>Summertime, umbrella time.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="gardenumbrella.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-image22"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PROMOTIONAL GAZABO</h2>
+                <p>Make camping experiences better.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="promotionalgazebo.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+           <div class="card">
+            <div class="card-image23"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PROMOTIONAL CANOPY</h2>
+                <p>If the weather is too hot, in the shade is your spot.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="promotionalcanopy.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+           <div class="card">
+            <div class="card-image24"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>OFFICE PLANNER/DIARY</h2>
+                <p>Because in your dreams, every detail matters.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="planner.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+        </div>
+        <div class="cards" id="cards_id">
+        <div class="card">
+            <div class="card-image25"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>PROMOTIONAL BLUETOOTH SPEAKER</h2>
+                <p>A music for everyone.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="speaker.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-image26"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>EXCLUSIVE PEN STAND</h2>
+                <p>Beauty is in the eyes of the PEN holder.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="penstand.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+           <div class="card">
+            <div class="card-image27"></div>
+            <div class="card-text">
+                <span class="date">SE</span>
+                <h2>EXCLUSIVE CLIP BOARD</h2>
+                <p>Together we clip. Together we save.</p>
+            </div>
+            <div style="background-color: #F7DDA4;" class="card-stats">
+                <div class="value"><strong><a href="clipboard.html" target="_blank">VIEW MORE</a></strong></div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="footer">
+        <div class="flex_container_footer">
+          <div style="widows: 10%;">
+            <p style="font-size: x-small;"><a href="https://www.google.co.in/maps/dir//23.03354,72.58088"><i class="fa fa-map-marker" style="font-size:26px;color:rgb(247, 244, 244)"></i>&nbsp;&nbsp;
+                Sanghvi enterprise, Shahpur Mill Compound Near Full Ghar School, near Rabba Ni Masjid, Ahmedabad-380001, Gujarat, India
+            </a></p>
+          </div>       
+          <div style="padding: 0% 0%; position: sticky; width: 30%;" id="footer_icon"> 
+            <a href="https://www.youtube.com/channel/UCCTyqe8a7PQ2IPbphm4hDWA" target="_blank" style="padding-top: 5px; padding-right: 5%;"><img src="Assets/yt.png" width="25px" height="25px" style="border-radius: 7px;"></a>
+            <a href="https://www.facebook.com/jaiminsanghvi91/photos/?ref=page_internal" target="_blank" style="padding-top: 5px; padding-right: 5%;"><img src="Assets/fb.png" width="25px" height="25px" style="border-radius: 7px;"></a>
+            <a href="https://twitter.com/SanghviEnter" target="_blank" style="padding-top: 5px; padding-right: 5%;"><img src="Assets/tw.png" width="25px" height="25px" style="border-radius: 7px;"></a>
+            <a href="https://www.indiamart.com/sanghvienterpriseahmedabad/" target="_blank" style="padding-top: 5px; padding-right: 5%;"><img src="Assets/IM.png" width="25px" height="25px" style="border-radius: 7px;"></a>
+            <a href="https://www.instagram.com/sanghvi_enterprise_/" target="_blank" style="padding-top: 5px; padding-right: 5%;"><img src="Assets/in.png" width="25px" height="25px" style="border-radius: 7px;"></a>
+            <a href="https://www.linkedin.com/company/sanghvienterprise" target="_blank" style="padding-top: 5px; padding-right: 5%;"><img src="Assets/ln.jpg" width="25px" height="25px" style="border-radius: 7px;"></a>
+        </div>
+        </div>
+    </br>
+        <footer id="sticky-footer">
+         <center> <div class="container text-center" style="text-align: center;" id="footer_copyright">
+            <b>Copyright &copy; sanghvi enterprise </b>
+          </div></center>
+        </footer>
+    </div>
+
+    <script>
+     
+    
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+    
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+    
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+    
+
+    $(function() {
+  $('#WAButton').floatingWhatsApp({
+    phone: '919879397902', //WhatsApp Business phone number International format-
+    //Get it with Toky at https://toky.co/en/features/whatsapp.
+    headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+    popupMessage: 'Hello, how can we help you?', //Popup Message
+    showPopup: true, //Enables popup display
+    buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
+    //headerColor: 'crimson', //Custom header color
+    //backgroundColor: 'crimson', //Custom background button color
+    position: "right"    
+  });
+});
+</script>  
+  </body>
+  </html>
